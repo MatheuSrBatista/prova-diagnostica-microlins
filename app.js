@@ -1,4 +1,4 @@
-const correctAnswers = ['a', 'a', 'c', 'c', 'a', 'a', 'b', 'b', 'b', 'd', 'd', 'd', 'a', 'd', 'a'];
+const correctAnswers = ['a', 'a', 'c', 'a', 'a', 'a', 'b', 'b', 'a', 'a', 'd', 'd', 'a', 'd', 'a'];
 
 const form = document.querySelector('form');
 const popup = document.getElementById('resultPopup');
