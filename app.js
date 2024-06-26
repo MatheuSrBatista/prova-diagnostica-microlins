@@ -34,7 +34,7 @@ form.addEventListener('submit', event => {
     let knowledgeLevel;
     if (userPoints >= 0 && userPoints <= 5) {
         knowledgeLevel = 'Conhecimento básico';
-        document.querySelector('.recomendation').textContent = `Recomendação: Informática básica e windows 11`;
+        document.querySelector('.recomendation').textContent = `Recomendação: Introdução à informática e windows 11`;
     } else if (userPoints >= 6 && userPoints <= 10) {
         knowledgeLevel = 'Conhecimento intermediário';
         document.querySelector('.recomendation').textContent = `Recomendação: Windows 11`;
